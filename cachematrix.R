@@ -20,8 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## cacheSolve - if we have cached inversed matrix - returns, 
-## otherwise it will inverse this matrix
+## cacheSolve - if we have cached inversed matrix than it will be returned,
+## but if there is not cached matrix it will inverse matrix
 
 cacheSolve <- function(x, ...) {
         m <- x$getinverse()
